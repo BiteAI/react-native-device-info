@@ -19,7 +19,7 @@ android {
         }
     }
     lintOptions {
-       warning 'InvalidPackage'
+       warning 'InvalidPackage', 'MissingPermission'
     }
 }
 
